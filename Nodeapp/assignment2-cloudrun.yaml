@@ -1,0 +1,57 @@
+swagger: "2.0"
+info:
+  title: mySampleAPI
+  description: API Walk through.
+  version: 1.0.0
+
+host: myapi2.apigateway.coe453-assignment-1.cloud.goog
+basePath: /
+schemes:
+  - https
+  - http
+
+paths:
+  /add:
+    post:
+      operationId: add
+      summary: Addition operation with API
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://nodeapp-grbzwajuja-uc.a.run.app/add
+  /sub:
+    post:
+      operationId: sub
+      summary: Subtraction operation with API
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://nodeapp-grbzwajuja-uc.a.run.app/sub
+  /div:
+    post:
+      operationId: div
+      summary: Division operation with API
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://nodeapp-grbzwajuja-uc.a.run.app/div
+  /mul:
+    post:
+      operationId: mul
+      summary: Multiplication operation with API
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://nodeapp-grbzwajuja-uc.a.run.app/mul
