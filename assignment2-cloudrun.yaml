@@ -21,7 +21,7 @@ paths:
         200:
           description: OK
       x-google-backend:
-        address: https://nodeapp-grbzwajuja-uc.a.run.app/add
+        address: https://runadd-grbzwajuja-uc.a.run.app
   /sub:
     post:
       operationId: sub
@@ -32,7 +32,7 @@ paths:
         200:
           description: OK
       x-google-backend:
-        address: https://nodeapp-grbzwajuja-uc.a.run.app/sub
+        address: https://runsub-grbzwajuja-uc.a.run.app
   /div:
     post:
       operationId: div
@@ -43,7 +43,7 @@ paths:
         200:
           description: OK
       x-google-backend:
-        address: https://nodeapp-grbzwajuja-uc.a.run.app/div
+        address: https://rundiv-grbzwajuja-uc.a.run.app
   /mul:
     post:
       operationId: mul
@@ -54,4 +54,4 @@ paths:
         200:
           description: OK
       x-google-backend:
-        address: https://nodeapp-grbzwajuja-uc.a.run.app/mul
+        address: https://runmul-grbzwajuja-uc.a.run.app
